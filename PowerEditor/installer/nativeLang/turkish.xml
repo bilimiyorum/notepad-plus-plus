@@ -5,7 +5,7 @@
 2. Tüm yorumlar açıklama içindir, çeviri için değil.
 -->
 <NotepadPlus>
-	<Native-Langue name="Turkish" filename="turkish.xml" version="8.9.7">
+	<Native-Langue name="Turkish" filename="turkish.xml" version="8.9.8">
 		<Menu>
 			<Main>
 				<!-- Ana Menü Girişleri -->
@@ -103,7 +103,7 @@
 					<Item id="41007" name="&amp;Tümünü kaydet"/>
 					<Item id="41008" name="&amp;Farklı kaydet"/>
 					<Item id="41010" name="Ya&amp;zdır"/>
-					<Item id="1001" name="Hemen yazdır"/>
+					<Item id="1001"  name="Hemen yazdır"/>
 					<Item id="41011" name="&amp;Çıkış"/>
 					<Item id="41012" name="Oturum yükle"/>
 					<Item id="41013" name="Oturumu kaydet"/>
@@ -231,7 +231,7 @@
 					<Item id="43021" name="Yer imli satırları sil"/>
 					<Item id="43051" name="Yer imlenmemiş satırları kaldır"/>
 					<Item id="43050" name="Yer imlerini ters çevir"/>
-					<Item id="43052" name="Aralıktaki karakterleri bul…"/>
+					<Item id="43052" name="Aralıktaki karakterleri &amp;bul..."/>
 					<Item id="43053" name="{} [] ya da () arasından tümünü s&amp;eç"/>
 					<Item id="43009" name="Eşleşen kaşlı ayraca git"/>
 					<Item id="43010" name="&amp;Öncekini bul"/>
@@ -297,7 +297,8 @@
 					<Item id="44024" name="&amp;Uzaklaştır (ctrl + fare tekerleğiyle aşağı)"/>
 					<Item id="44025" name="Boşluğu ve sekmeyi göster"/>
 					<Item id="44026" name="Satır sonlarını göster"/>
-					<Item id="44029" name="Tüm blokları geri aç"/>
+					<Item id="44027" name="Görünümleri &amp;eşitle"/>
+					<Item id="44029" name="Tümünü Aç"/>
 					<Item id="44030" name="Geçerli bloku katla"/>
 					<Item id="44031" name="Geçerli bloku aç"/>
 					<Item id="44049" name="&amp;Özet…"/>
@@ -376,15 +377,15 @@
 					<Item id="47002" name="Notepad++ proje sayfası"/>
 					<Item id="47003" name="Notepad++ çevrimiçi kullanıcı kılavuzu"/>
 					<Item id="47004" name="Notepad++ topluluğu (forum)"/>
-					<Item id="47012" name="Derleme bilgileri…"/>
+					<Item id="47012" name="Derleme bilgileri..."/>
 					<Item id="47005" name="Eklenti merkezi"/>
 					<Item id="47006" name="&amp;Güncellemeleri denetle"/>
-					<Item id="47009" name="Güncelleme proxy sunucusu ayarları…"/>
-					<Item id="48005" name="Eklenti al…"/>
-					<Item id="48006" name="Tema al…"/>
+					<Item id="47009" name="Güncelleme proxy sunucusu ayarları..."/>
+					<Item id="48005" name="Eklenti al..."/>
+					<Item id="48006" name="Tema al..."/>
 					<Item id="48018" name="Açılır bağlam menüsünü düzenle"/>
-					<Item id="48009" name="Kısayol eşleyici…"/>
-					<Item id="48011" name="&amp;Tercihler…"/>
+					<Item id="48009" name="Kısayol eşleyici..."/>
+					<Item id="48011" name="&amp;Tercihler..."/>
 					<Item id="48014" name="Eklentiler klasörünü aç..."/>
 					<Item id="48015" name="Eklentiler yöneticisi..."/>
 					<Item id="48501" name="Üret..."/>
@@ -399,7 +400,7 @@
 					<Item id="48510" name="Üret..."/>
 					<Item id="48511" name="Dosyalardan üret..."/>
 					<Item id="48512" name="Seçimlerden panoya üret"/>
-					<Item id="49000" name="&amp;Çalıştır…"/>
+					<Item id="49000" name="&amp;Çalıştır..."/>
 					<Item id="49001" name="shortcuts.xml dosyasını doğrula"/>
 
 					<Item id="50000" name="Fonksiyonu tamamla"/>
@@ -412,8 +413,8 @@
 					<Item id="44042" name="Satırları gizle"/>
 					<Item id="42040" name="Son kullanılan dosyaların tümünü aç"/>
 					<Item id="42041" name="Son kullanılan dosyalar listesini temizle"/>
-					<Item id="48016" name="Kısayolu değiştir/makroyu sil…"/>
-					<Item id="48017" name="Kısayolu değiştir/komutu sil…"/>
+					<Item id="48016" name="Kısayolu değiştir/makroyu sil..."/>
+					<Item id="48017" name="Kısayolu değiştir/komutu sil..."/>
 					
 					<Item id="11001" name="&amp;Pencereler..."/>
 					<Item id="11002" name="Ada göre a'dan z'ye"/>
@@ -481,7 +482,7 @@
 		</Menu>
 
 		<Dialog>
-			<Find title="" titleFind="Bul" titleReplace="Değiştir" titleFindInFiles="Dosyalarda bul" titleFindInProjects="Projelerde bul" titleMark="İşaretle">
+			<Find title="" titleFind="Bul" titleReplace="Değiştir" titleFindInFiles="Dosyalarda Bul" titleFindInProjects="Projelerde Bul" titleMark="İşaretle">
 				<Item id="1" name="&amp;Sonrakini bul"/>
 				<Item id="1722" name="Geriye doğru"/>
 				<Item id="2" name="&amp;Kapat"/>
@@ -490,13 +491,10 @@
 				<Item id="1604" name="Büyük/küçük harf &amp;eşleştir"/>
 				<Item id="1605" name="Dü&amp;zenli ifade"/>
 				<Item id="1606" name="Aramayı sür&amp;dür"/>
-				
-				
 				<Item id="1614" name="Sa&amp;y"/>
 				<Item id="1615" name="Tümünü &amp;seç"/>
 				<Item id="1616" name="Satırı işa&amp;retle"/>
 				<Item id="1618" name="Her arama için temizle"/>
-				
 				<Item id="1611" name="Değ&amp;iştir:"/>
 				<Item id="1608" name="&amp;Değiştir"/>
 				<Item id="1609" name="Tü&amp;münü değiştir"/>
@@ -539,7 +537,7 @@
 				<Item id="1691" name="S&amp;ay"/>
 			</IncrementalFind>
 
-			<FindCharsInRange title="Aralıktaki Karakterleri Bul…">
+			<FindCharsInRange title="Aralıktaki Karakterleri Bul...">
 				<Item id="2" name="&amp;Kapat"/>
 				<Item id="2901" name="&amp;ASCII karakterler olmadan (128–255)"/>
 				<Item id="2902" name="&amp;ASCII karakterler (0–127)"/>
@@ -551,7 +549,7 @@
 				<Item id="2910" name="&amp;Bul"/>
 			</FindCharsInRange>
 
-			<GoToLine title="Git">
+			<GoToLine title="Git...">
 				<Item id="2007" name="&amp;Satır"/>
 				<Item id="2008" name="&amp;Karakter"/>
 				<Item id="1" name="&amp;Git"/>
@@ -561,14 +559,14 @@
 				<Item id="2006" name="Gidilebilecek son konum:"/>
 			</GoToLine>
 
-			<Run title="Çalıştır">
+			<Run title="Çalıştır...">
 				<Item id="1903" name="Program çalıştır"/>
 				<Item id="1" name="Çalıştır"/>
 				<Item id="2" name="İptal"/>
-				<Item id="1904" name="Kaydet"/>
+				<Item id="1904" name="Kaydet..."/>
 			</Run>
 
-			<MD5FromFilesDlg title="Dosyalardan MD5 derlemeleri oluştur">
+			<MD5FromFilesDlg title="Dosyalardan MD5 derlemeleri üret">
 				<Item id="1922" name="MD5 üretilecek dosyaları seç..."/>
 				<Item id="1924" name="Panoya kopyala"/>
 				<Item id="2" name="Kapat"/>
@@ -662,7 +660,6 @@
 					<!-- "Global override" yazısını çevirme -->
 					<Item id="2235" name="Global override nedir?"/>
 				</SubDialog>
-				
 			</StyleConfig>
 			
 			<ColorPopup>
@@ -845,9 +842,9 @@
 					<Item id="1" name="Tamam"/>
 					<Item id="2" name="İptal"/>
 				</StylerDialog>
-				<Folder title="Klasör &amp;&amp; Varsayılanlar">
+				<Folder title="Klasör ve Varsayılan">
 					<Item id="21101" name="Varsayılan stil"/>
-					<Item id="21102" name="Stilci…"/>
+					<Item id="21102" name="Stilci"/>
 					<Item id="21103" name="Kullanıcı tanımlı diller çevrimiçi yardım"/>
 					<Item id="21105" name="Belgelendirme"/>
 					<Item id="21106" name="&amp;Sıkı kapat (boş satırları da kapat)"/>
@@ -855,17 +852,17 @@
 					<Item id="21224" name="Aç:"/>
 					<Item id="21225" name="Gövde:"/>
 					<Item id="21226" name="Kapat:"/>
-					<Item id="21227" name="Stilci…"/>
+					<Item id="21227" name="Stilci"/>
 					<Item id="21320" name="Kod 1 stilinde kapat (ayırıcılar gerekir)"/>
 					<Item id="21324" name="Aç:"/>
 					<Item id="21325" name="Gövde:"/>
 					<Item id="21326" name="Kapat:"/>
-					<Item id="21327" name="Stilci…"/>
+					<Item id="21327" name="Stilci"/>
 					<Item id="21420" name="Yorum stilinde kapat"/>
 					<Item id="21424" name="Aç:"/>
 					<Item id="21425" name="Gövde:"/>
 					<Item id="21426" name="Kapat:"/>
-					<Item id="21427" name="Stilci…"/>
+					<Item id="21427" name="Stilci"/>
 				</Folder>
 				<Keywords title="Anahtar Sözcükler Listesi">
 					<Item id="22101" name="1. grup"/>
@@ -884,32 +881,32 @@
 					<Item id="22521" name="Ön ek modu"/>
 					<Item id="22571" name="Ön ek modu"/>
 					<Item id="22621" name="Ön ek modu"/>
-					<Item id="22122" name="Stilci…"/>
-					<Item id="22222" name="Stilci…"/>
-					<Item id="22322" name="Stilci…"/>
-					<Item id="22422" name="Stilci…"/>
-					<Item id="22472" name="Stilci…"/>
-					<Item id="22522" name="Stilci…"/>
-					<Item id="22572" name="Stilci…"/>
-					<Item id="22622" name="Stilci…"/>
+					<Item id="22122" name="Stilci"/>
+					<Item id="22222" name="Stilci"/>
+					<Item id="22322" name="Stilci"/>
+					<Item id="22422" name="Stilci"/>
+					<Item id="22472" name="Stilci"/>
+					<Item id="22522" name="Stilci"/>
+					<Item id="22572" name="Stilci"/>
+					<Item id="22622" name="Stilci"/>
 				</Keywords>
-				<Comment title="Yorum &amp;&amp; Numara">
+				<Comment title="Yorum ve Sayı">
 					<Item id="23003" name="Yorum satırı konumu"/>
 					<Item id="23004" name="Her yerde izin ver"/>
 					<Item id="23005" name="Satır başlangıcına zorla"/>
 					<Item id="23006" name="Öncesindeki beyaz boşluğa izin ver"/>
 					<Item id="23001" name="Yorumların kapatılmasına izin ver"/>
-					<Item id="23326" name="Stilci…"/>
+					<Item id="23326" name="Stilci"/>
 					<Item id="23323" name="Aç:"/>
 					<Item id="23324" name="Devam karakteri:"/>
 					<Item id="23325" name="Kapat:"/>
 					<Item id="23301" name="Yorum satırı stili"/>
-					<Item id="23124" name="Stilci…"/>
+					<Item id="23124" name="Stilci"/>
 					<Item id="23122" name="Aç:"/>
 					<Item id="23123" name="Kapat:"/>
 					<Item id="23101" name="Yorum stili"/>
 					<Item id="23201" name="Numara stili"/>
-					<Item id="23220" name="Stilci…"/>
+					<Item id="23220" name="Stilci"/>
 					<Item id="23230" name="Ön ek 1:"/>
 					<Item id="23232" name="Ön ek 2:"/>
 					<Item id="23234" name="İlaveler 1:"/>
@@ -922,51 +919,51 @@
 					<Item id="23246" name="Virgül"/>
 					<Item id="23247" name="Her ikisi de"/>
 				</Comment>
-				<Operator title="İşleçler &amp;&amp; Sınırlayıcılar">
+				<Operator title="İşleçler ve Sınırlayıcılar">
 					<Item id="24101" name="İşleç stili"/>
-					<Item id="24113" name="Stilci…"/>
+					<Item id="24113" name="Stilci"/>
 					<Item id="24116" name="İşleç 1"/>
 					<Item id="24117" name="İşleç 2 (ayırıcılar gerekir)"/>
 					<Item id="24201" name="Sınırlayıcı 1 stili"/>
 					<Item id="24220" name="Aç:"/>
 					<Item id="24221" name="Kaçış:"/>
 					<Item id="24222" name="Kapat:"/>
-					<Item id="24223" name="Stilci…"/>
+					<Item id="24223" name="Stilci"/>
 					<Item id="24301" name="Sınırlayıcı 2 stili"/>
 					<Item id="24320" name="Aç:"/>
 					<Item id="24321" name="Kaçış:"/>
 					<Item id="24322" name="Kapat:"/>
-					<Item id="24323" name="Stilci…"/>
+					<Item id="24323" name="Stilci"/>
 					<Item id="24401" name="Sınırlayıcı 3 stili"/>
 					<Item id="24420" name="Aç:"/>
 					<Item id="24421" name="Kaçış:"/>
 					<Item id="24422" name="Kapat:"/>
-					<Item id="24423" name="Stilci…"/>
+					<Item id="24423" name="Stilci"/>
 					<Item id="24451" name="Sınırlayıcı 4 stili"/>
 					<Item id="24470" name="Aç:"/>
 					<Item id="24471" name="Kaçış:"/>
 					<Item id="24472" name="Kapat:"/>
-					<Item id="24473" name="Stilci…"/>
+					<Item id="24473" name="Stilci"/>
 					<Item id="24501" name="Sınırlayıcı 5 stili"/>
 					<Item id="24520" name="Aç:"/>
 					<Item id="24521" name="Kaçış:"/>
 					<Item id="24522" name="Kapat:"/>
-					<Item id="24523" name="Stilci…"/>
+					<Item id="24523" name="Stilci"/>
 					<Item id="24551" name="Sınırlayıcı 6 stili"/>
 					<Item id="24570" name="Aç:"/>
 					<Item id="24571" name="Kaçış:"/>
 					<Item id="24572" name="Kapat:"/>
-					<Item id="24573" name="Stilci…"/>
+					<Item id="24573" name="Stilci"/>
 					<Item id="24601" name="Sınırlayıcı 7 stili"/>
 					<Item id="24620" name="Aç:"/>
 					<Item id="24621" name="Kaçış:"/>
 					<Item id="24622" name="Kapat:"/>
-					<Item id="24623" name="Stilci…"/>
+					<Item id="24623" name="Stilci"/>
 					<Item id="24651" name="Sınırlayıcı 8 stili"/>
 					<Item id="24670" name="Aç:"/>
 					<Item id="24671" name="Kaçış:"/>
 					<Item id="24672" name="Kapat:"/>
-					<Item id="24673" name="Stilci…"/>
+					<Item id="24673" name="Stilci"/>
 				</Operator>
 			</UserDefine>
 			<Preference title="Tercihler">
@@ -980,7 +977,7 @@
 					<Item id="6134" name="Gizle"/>
 				</Global>
 
-				<Toolbar title="Toolbar">
+				<Toolbar title="Araç Çubuğu">
 					<Item id="6102" name="Gizle"/>
 					<Item id="6103" name="Fluent arayüz: küçük"/>
 					<Item id="6104" name="Fluent arayüz: geniş"/>
@@ -1019,7 +1016,7 @@
 					<Item id="6121" name="Kapatılan son sekmeden çık"/>
 					<Item id="6128" name="Alternatif simgeler"/>
 					<Item id="6125" name="Davranış"/>
-					<Item id="6126" name="Bak &amp;&amp; hisset"/>
+					<Item id="6126" name="Görünüm ve his"/>
 					<Item id="6136" name="Maks. sekme etiketi genişliği:"/>
 				</Tabbar>
 					
@@ -1035,13 +1032,11 @@
 					<Item id="6229" name="Hizalanmış"/>
 					<Item id="6230" name="Girintili"/>
 					<Item id="6234" name="Dokunmatik yüzeyde sorun varsa gelişmiş kaydırmayı devre dışı bırak"/>
-					<Item id="6214" name="Geçerli satırı vurgula"/>
 					<Item id="6215" name="Yumuşak yazı tipini etkinleştir"/>
 					<Item id="6236" name="Son satırın ötesine kaydırmayı etkinleştir"/>
 					<Item id="6239" name="Seçimin dışında sağ tıklanırsa seçimi koru"/>
 					<Item id="6245" name="Sanal alanı etkinleştir"/>
 					<Item id="6214" name="Satırı seçmeden kopyalamayı/kesmeyi etkinleştir"/>
-					<Item id="6225" name="Seçilmiş yazının arkaplanına özel rengi uygula"/>
 					<Item id="6266" name="Seçilen yazının sürüklenip bırakılmasını etkisizleştir"/>
 					<Item id="6225" name="Seçilmiş yazının arkaplanına özel rengi uygula"/>
 					<Item id="6651" name="Şimdiki satır işaretçisi"/>
@@ -1059,8 +1054,8 @@
 					<Item id="6248" name="Varsayılan"/>
 					<Item id="6249" name="Düz metin"/>
 					<Item id="6250" name="Kişisel renk"/>
-					<Item id="6260" name="Görünüm"/>
 					<Item id="6252" name="Yazdırılamayan karakterler"/>
+					<Item id="6260" name="Görünüm"/>
 					<Item id="6254" name="Kısaltma"/>
 					<Item id="6255" name="Kod noktası"/>
 					<Item id="6256" name="Özel renk"/>
@@ -1140,7 +1135,7 @@
 				</NewDoc>
 
 				<DefaultDir title="Varsayılan Dizin">
-					<Item id="6413" name="Varsayılan aç/kaydet dosya dizini"/>
+					<Item id="6413" name="Varsayılan dosya açma/kaydetme dizini"/>
 					<Item id="6414" name="Geçerli belgeyi takip et"/>
 					<Item id="6415" name="Son kullanılan dizini hatırla"/>
 					<Item id="6431" name="Klasör taşıyarak çalışma alanı klasörleri başlatıldığında klasörün tüm dosyalarını aç"/>
@@ -1154,8 +1149,8 @@
 				
 				
 				<Language title="Dil Menüsü">
-					<Item id="6505" name="Kullanılabilir öğeler:"/>
-					<Item id="6506" name="Devre dışı öğeler:"/>
+					<Item id="6505" name="Kullanılabilir ögeler:"/>
+					<Item id="6506" name="Devre dışı ögeler:"/>
 					<Item id="6507" name="Dil menüsünü kısalt"/>
 					<Item id="6508" name="Dil menüsü"/>
 					<Item id="6335" name="SQL için kaçış karakteri olarak ters eğik çizgi kullan"/>
@@ -1189,7 +1184,7 @@
 					<Item id="6329" name="Eşleşen etiketleri vurgula"/>
 					<Item id="6327" name="Etkinleştir"/>
 					<Item id="6328" name="Vurgu etiketi nitelikleri"/>
-					<Item id="6330" name="Yorum/PHP/ASP etiketlerini vurgula"/>
+					<Item id="6330" name="Yorum/PHP/ASP alanını vurgula"/>
 				</Highlighting>
 				
 				<Print title="Yazdır">
@@ -1250,7 +1245,7 @@
 				<RecentFilesHistory title="Son Kull. Dosya Geçmişi">
 					<Item id="6304" name="Son kullanılan dosya geçmişi"/>
 					<Item id="6306" name="Maksimum girdi sayısı:"/>
-					<Item id="6305" name="Başlatıldığı zaman denetleme"/>
+					<Item id="6305" name="Başlangıçta denetlenmesin"/>
 					<Item id="6429" name="Göster"/>
 					<Item id="6424" name="Alt menüde göster"/>
 					<Item id="6425" name="Sadece dosya adı"/>
@@ -1261,8 +1256,8 @@
 				<Backup title="Yedekleme">
 					<Item id="6817" name="Anlık görüntü oturumu ve dönemsel yedekleme"/>
 					<Item id="6818" name="Anlık görüntü oturumunu ve dönemsel yedeklemeyi etkinleştir"/>
-					<Item id="6819" name="Düzenlemede yedekleme tetikleme her"/>
-					<Item id="6821" name="Saniyede bir yapılsın"/>
+					<Item id="6819" name="Değişiklik yapıldığında şu sıklıkta yedekle"/>
+					<Item id="6821" name="saniye"/>
 					<Item id="6822" name="Yedekleme yolu:"/>
 					<Item id="6309" name="Geçerli oturumu sonraki açılışta hatırla"/>
 					<Item id="6825" name="Önceki oturumdan erişilemeyen dosyaları hatırla"/>
@@ -1289,7 +1284,7 @@
 					<Item id="6872" name="Otomatik tamamlama listesini kısalt"/>
 					<Item id="6815" name="Yazarken fonksiyon parametre ipuçlarını göster"/>
 					<Item id="6851" name="Otomatik olarak ekle"/>
-					<Item id="6857" name="html/xml kptma etkti"/>
+					<Item id="6857" name="html/xml kapatma etiketi"/>
 					<Item id="6858" name="Aç"/>
 					<Item id="6859" name="Kapat"/>
 					<Item id="6860" name="Eşleşen çift 1:"/>
@@ -1325,8 +1320,8 @@
 					<Item id="6256" name="Birden çok satıra izin ver"/>
 					<Item id="6161" name="Sözcük karakter listesi"/>
 					<Item id="6162" name="Varsayılan sözcük karakter listesini olduğu gibi kullan"/>
-					<Item id="6163" name="Karakterini sözcüğün bir parçası gibi ekle
-(ne yaptığını bilmiyorsan seçme)"/>
+					<Item id="6163" name="Karakterinizi sözcüğün bir parçası gibi ekleyin
+(ne yaptığınızdan emin değilseniz değiştirmeyin)"/>
 				</Delimiter>
 
 				<Performance title="Performans">
@@ -1398,7 +1393,6 @@
 					<Item id="6324" name="Belge değiştirici (ctrl + tab)"/>
 					<Item id="6331" name="Başlık çubuğunda sadece dosya adını göster"/>
 					<Item id="6334" name="Karakter kodlamasını otomatik olarak algıla"/>
-					<Item id="6350" name="Tam çerçeve modunu etkinleştir"/>
 					<Item id="6337" name="Çalışma alanı dosya uzantısı:"/>
 					<Item id="6114" name="Etkin"/>
 					<Item id="6117" name="MRU (en son kullanılan) davranışı etkin"/>
@@ -1407,6 +1401,7 @@
 					<Item id="6346" name="Belge haritasında izle"/>
 					<Item id="6360" name="Tüm sesleri sustur"/>
 					<Item id="6361" name="Tümünü kaydet onaylama penceresini etkinleştir"/>
+					<Item id="6366" name="Klasörü çalışma alanı olarak aç paneline sembolik bağlantıları yüklemeye izin ver"/>
 				</MISC>
 			</Preference>
 			<MultiMacro title="Makroyu Birden Çok Kez Çalıştır">
@@ -1467,14 +1462,16 @@
 			</DoSaveOrNot>
 			<DoSaveAll title="Tümünü Kaydet Onaylaması">
 				<Item id="1766" name=" Tüm düzenlenmiş dosyaları kaydetmek istediğinize emin misiniz?
+				
 Bu pencereyi tekrar görmek istemiyorsanız &quot;her zaman evet&quot; seçeneğini seçin.
 Bu pencereyi Tercihler içinden tekrar aktif edebilirsiniz."/>
 				<Item id="6" name="&amp;Evet"/>
 				<Item id="7" name="&amp;Hayır"/>
 				<Item id="4" name="&amp;Her zaman evet"/>
-			</DoSaveAll><!-- NasılTekrarlanır: Tercihler->Çeşitli penceresinde "Tümünü Kaydet onaylama penceresi" kutucuğunu işaretleyin, şimdi "Tümünü Kaydet" seçeneğine tıklayın -->
-			<NetworkPathWarning title="Notepad++ Oturumu Yükleniyor" title2="Tıklanabilir file:// Linki">
+			</DoSaveAll><!-- Nasıl Yeniden Üretilir: Tercihler->Çeşitli penceresinde "Tümünü Kaydet onaylama penceresi" kutucuğunu işaretleyin, şimdi "Tümünü Kaydet" seçeneğine tıklayın -->
+			<NetworkPathWarning title="Notepad++ Oturumu Yükleniyor" title2="Tıklanabilir file:// Linki" title3="toolbarButtonsConf.xml yükleniyor" title4="Proje Paneli XML dosyası yükleniyor">
 				<Item id="1771" name="Ağ yolu uyarısı:
+				
 $STR_REPLACE$
 
 Yüklenmesi, Windows'un o sunucuya otomatik olarak kimlik doğrulamasına neden olacak, bu da windows giriş bilginizin potansiyel olarak ifşa olmasına sebep olacaktır.
@@ -1484,7 +1481,6 @@ Yine de yüklensin mi?"/>
 				<Item id="7" name="&amp;Ağ yolunu her zaman atla"/>
 				<Item id="4" name="Ağ yolunu her zaman yükl&amp;e"/>
 			</NetworkPathWarning>
-		
 			<DebugInfo title="Hata Ayıklama Bilgisi">
 				<Item id="1752" name="Hata ayıklama bilgisini panoya kopyala"/>
 				<Item id="1" name="Tamam"/>
@@ -1501,17 +1497,17 @@ Devam etmek istiyor musunuz?"/>
 			<LoseUndoAbilityWarning title="Geri Alma Olanağını Yitirme Uyarısı" message="Yaptığınız değişiklikleri kaydetmelisiniz. 
 Kaydedilen değişiklikler geri alınamaz. 
 
-Devam etmek istiyor musunuz?"/>
+Devam etmek istiyor musunuz?"/><!-- Nasıl Yeniden Üretilir: Açılan dosya değiştirilip kaydedildikten sonra dosya kodlamasını değiştiriyorsunuz. -->
 			<CannotMoveDoc title="Yeni Notepad++ Penceresine Taşı" message="Belge değiştirilmiş, kaydedip yeniden deneyin."/>
 			<DocReloadWarning title="Yeniden Yükle" message="Geçerli dosyayı yeniden yüklerseniz yaptığınız değişiklikler kaybolacak. Devam etmek istiyor musunuz?"/>
 			<FileLockedWarning title="Kaydedilemedi" message="Dosyanın başka bir yazılım tarafından kullanılmadığından emin olun."/>
 			<FileAlreadyOpenedInNpp title="Dosya Aç" message="Dosya zaten Notepad++ içinde açık."/>
 			<RenameTabTemporaryNameAlreadyInUse title="Yeniden Adlandırma Başarısız" message="Belirtilen ad başka bir sekmede kullanımda."/>
-			<RenameTabTemporaryNameIsEmpty title="Yeniden Adlandırma Başarısız" message="Belirtilen isim boş olamaz, ya da sadece boşluklar veya atlamalar (TAB) içeremez."/><!--  NasılTekrarlanır: İsimsiz belge sekme yeniden adlandırın ve boş bir dizi ya da biraz boşluk girin. -->
+			<RenameTabTemporaryNameIsEmpty title="Yeniden Adlandırma Başarısız" message="Belirtilen isim boş olamaz, ya da sadece boşluklar veya atlamalar (TAB) içeremez."/><!--  Nasıl Yeniden Üretilir: İsimsiz belge sekme yeniden adlandırın ve boş bir dizi ya da biraz boşluk girin. -->
 			<DeleteFileFailed title="Dosya Sil" message="Dosya silinemedi"/>
 
 			<NbFileToOpenImportantWarning title="Çok Fazla Sayıda Dosya Açıldı" message="$INT_REPLACE$ dosyası açılmak üzere. 
-Devam etmek istiyor musunuz?"/>
+Devam etmek istiyor musunuz?"/><!-- Nasıl Yeniden Üretilir: Tercihler iletişim kutusunun "Varsayılan Dizin" bölümündeki "Klasör bırakıldığında klasörü çalışma alanı olarak aç yerine klasörün tüm dosyalarını aç" seçeneğini işaretleyin, ardından 200'den fazla dosya içeren bir klasörü Notepad++ içine bırakın. -->
 			<SettingsOnCloudError title="Bulut Ayarları" message="Buluta yedekleme konumu salt okunur olarak ayarlanmış 
 veya klasöre yazma erişimi için ayrıcalık tanınmamış.
 Buluta yedekleme iptal edilecektir. Lütfen Tercihler'den tutarlı bir konum ayarlayın."/>
@@ -1520,9 +1516,9 @@ Buluta yedekleme iptal edilecektir. Lütfen Tercihler'den tutarlı bir konum aya
 			<DroppingFolderAsProjectModeWarning title="Geçersiz İşlem" message="Sadece klasör ya da dosyaları bırakabilirsiniz fakat ikisini birden yapamazsınız, çünkü Klasörü Proje modu olarak bırakıyorsunuz.
 Bu işlemin çalışması için, klasör bırakmada, klasörü Çalışma alanı olarak başlatmak yerine &quot; Ayarlar içindeki&quot; &quot;Varsayılan Dizin&quot; bölümünde &quot;Klasördeki tüm dosyaları aç&quot; seçeneği etkinleştirmelisiniz."/>
 			<SortingError title="Sıralama Hatası" message="$INT_REPLACE$ satırındaki hatadan dolayı Numerik sıralanamadı."/>
-			<SortLocaleMultiple title="Sıralama Gerçekleşmedi" message="Çoklu seçin desteklenmiyor."/><!-- NasılTekrarlanır: Çoklu seçim yapın ve Düzen | Satır İşlemleri | Satırları Yerel Düzende Sırala'yı seçin. -->
-			<SortLocaleUnknown title="Sıralama Başarısız" message="Sıralamanın başarısız olma sebebi belirlenemiyor."/><!-- NasılTekrarlanır: Bu durum teoriktir; neyin buna neden olacağı bilinmiyor. -->
-			<SortLocaleExcept title="Sıralama Başarısız" message="$STR_REPLACE$"/><!-- NasılTekrarlanır: 32-bit Notepad++ içinde büyük bir dosya açın, mesela 500MB / 90bin satırlı ve Düzen | Satır İşlemleri | Satırları Yerel Düzende Sırala'yı seçin. -->
+			<SortLocaleMultiple title="Sıralama Gerçekleşmedi" message="Çoklu seçin desteklenmiyor."/><!-- Nasıl Yeniden Üretilir: Çoklu seçim yapın ve Düzen | Satır İşlemleri | Satırları Yerel Düzende Sırala'yı seçin. -->
+			<SortLocaleUnknown title="Sıralama Başarısız" message="Sıralamanın başarısız olma sebebi belirlenemiyor."/><!-- Nasıl Yeniden Üretilir: Bu durum teoriktir; neyin buna neden olacağı bilinmiyor. -->
+			<SortLocaleExcept title="Sıralama Başarısız" message="$STR_REPLACE$"/><!-- Nasıl Yeniden Üretilir: 32-bit Notepad++ içinde büyük bir dosya açın, mesela 500MB / 90bin satırlı ve Düzen | Satır İşlemleri | Satırları Yerel Düzende Sırala'yı seçin. -->
 			<ColumnModeTip title="Sütun Modu İpucu" message="
 Sütun seçme moduna geçmek için 3 yol var:
 
@@ -1545,9 +1541,11 @@ Devam edilsin mi"/>
 Kaydedin yoksa veriniz kaybolacak.
 &quot;$STR_REPLACE$&quot; dosyasını kaydetmek istiyor musunuz?"/>
 			<DoReloadOrNot title="Tekrar Yükle" message="&quot;$STR_REPLACE$&quot;
+
 Bu dosya başka bir program tarafından değiştirildi.
 Tekrar yüklemek ister misiniz?"/>
 			<DoReloadOrNotAndLooseChange title="Tekrar Yükle" message="&quot;$STR_REPLACE$&quot;
+
 Bu dosya başka bir program tarafından değiştirildi.
 Tekrar yükleyerek Notepad++ içindeki değişiklerin kaybolmasını istiyor musunuz?"/>
 			<PrehistoricSystemDetected title="Antik Sistem Bulundu" message="Görünüşe göre, halen antik bir sistem kullanıyorsunuz. Bu özellik sadece modern bir sistemde kullanılabilir, üzgünüm."/>
@@ -1557,28 +1555,31 @@ Notepad++ sayfasına giderek en son sürümü indirmek ister misiniz?"/>
 			<DocNoExistToMonitor title="İzleme Sorunu" message="İzlenmesi için dosyanın mevcut olması gerekir."/>
 			<FileTooBigToOpen title="Dosya Boyutu Sorunu" message="Dosya, Notepad++ tarafından açılamayacak kadar büyük."/>
 			<FileLoadingException title="Exception code: $STR_REPLACE$" message="An error occurred while loading the file!"/>
+			<WantToOpenHugeFile title="Devasa dosya açma uyarısı" message="2 GB üzerindeki devasa bir dosyayı açmak birkaç dakika sürebilir.
+Açmak istiyor musunuz?"/>
 			<CreateNewFileOrNot title="Yeni Dosya Oluştur" message="&quot;$INT_REPLACE$&quot; mevcut değil. Oluşturulsun mu?."/>
 			<CreateNewFileError title="Yeni Dosya Oluştur" message="&quot;$INT_REPLACE$&quot; dosyası oluşturulamıyor."/>
 			<OpenFileError title="HATA" message="&quot;$INT_REPLACE$&quot; dosyası açılamıyor."/>
 			<OpenFileNoFolderError title="Dosya açılamıyor" message="&quot;$STR_REPLACE1$&quot; açılamıyor:
 &quot;$STR_REPLACE2$&quot; klasörü mevcut değil."/>
 			<FileBackupFailed title="Dosya Yedekleme Başarısız" message="&quot;$INT_REPLACE$&quot; yolundaki yedekleme dizinine dosya kaydedilemedi.
-Şimdiki dosyayı her şekilde kaydetmek istiyor musunuz?"/>
+
+Şimdiki dosyayı her şekilde kaydetmek istiyor musunuz?"/><!-- Nasıl Yeniden Üretilir: Bu ileti sistem hatasını önler. Yeniden üretilmesi zordur. -->
 			<LoadStylersFailed title="stylers.xml Yükleme Başarısız" message="&quot;$INT_REPLACE$&quot; yükleme başarısız!"/>
 			<LoadLangsFailed title="Yapılandırıcı" message="langs.xml yükleme başarısız!
-Kendi langs.xml dosyanızı kurtarmak ister misiniz?"/>
-			<LoadLangsFailedFinal title="Yapılandırıcı" message="langs.xml yükleme başarısız!"/>
-			<FolderAsWorspaceSubfolderExists title="Çalışma Alanı Olarak Klasör Ekleme Sorunu" message="Eklemek istediğiniz klasörün alt klasörü mevcut.
-&quot;$STR_REPLACE$&quot; klasörünü eklemeden önce Panelden ana klasörü kaldırın."/>
+Kendi langs.xml dosyanızı kurtarmak ister misiniz?"/><!-- Nasıl Yeniden Üretilir: Notepad++ uygulamasını kapatın. Başka bir düzenleyici kullanarak "langs.xml" dosyasının tüm içeriğini silin (0 uzunluk) ve kaydedin. Notepad++ uygulamasını açın. -->
+			<LoadLangsFailedFinal title="Yapılandırıcı" message="langs.xml yükleme başarısız!"/><!-- HowToReproduce: Close Notepad++. Use another editor to make "langs.xml" an invalid xml file then save it. Open Notepad++. -->
+			<FolderAsWorspaceSubfolderExists title="Çalışma alanı olarak klasör ekleme sorunu" message="Eklemek istediğiniz klasörün alt klasörü mevcut.
+&quot;$STR_REPLACE$&quot; klasörünü eklemeden önce Panelden ana klasörü kaldırın."/><!-- Nasıl Yeniden Üretilir: "Klasörü Çalışma Alanı Olarak Aç" paneline "c:\temp\birKlasor\" gibi bir klasör ekleyin, ardından "c:\temp\" klasörünü eklemeyi deneyin. -->
 
 			<ProjectPanelChanged title="$STR_REPLACE$" message="Çalışma alanı değiştirildi. Kaydetmek istiyor musunuz?"/>
 			<ProjectPanelSaveError title="$STR_REPLACE$" message="Çalışma alanı dosyanız yazılırken bir hata oluştu.
-Çalışma alanınız kaydedilemedi."/><!-- NasılTekrarlanır: bu mesaj sistem hatasını önler. Tekrarlaması zor. -->
+Çalışma alanınız kaydedilemedi."/><!-- Nasıl Yeniden Üretilir: bu mesaj sistem hatasını önler. Tekrarlaması zor. -->
 			<ProjectPanelOpenDoSaveDirtyWsOrNot title="Çalışma Alanı Aç" message="Şu anki çalışma alanı değiştirildi. Şu anki projeyi kaydetmek istiyor musunuz?"/>
 			<ProjectPanelNewDoSaveDirtyWsOrNot title="Yeni Çalışma Alanı" message="Şu anki çalışma alanı değiştirildi. Şu anki projeyi kaydetmek istiyor musunuz?"/>
 			<ProjectPanelOpenFailed title="Çalışma Alanı Aç" message="Çalışma alanı açılamadı.
 Açılacak dosya görünüşe göre geçerli bir proje dosyası değil."/>
-			<ProjectPanelRemoveFolderFromProject title="Projeden Klasörü Kaldır" message="Tüm altmaddeler kaldırılacak.
+			<ProjectPanelRemoveFolderFromProject title="Projeden klasörü kaldır" message="Tüm altmaddeler kaldırılacak.
 Projeden bu klasörü kaldırmak istediğinize emin misiniz?"/>
 			<ProjectPanelRemoveFileFromProject title="Projeden Dosyayı Kaldır" message="Projeden bu dosyayı kaldırmak istediğinize emin misiniz?"/>
 			<ProjectPanelReloadError title="Çalışma Alanını Yeniden Yükle" message="Yeniden yüklemek için dosya bulunamadı."/>
@@ -1586,32 +1587,32 @@ Projeden bu klasörü kaldırmak istediğinize emin misiniz?"/>
 Devam etmek istiyor musunuz?"/>
 			<UDLNewNameError title="UDL Hatası" message="Bu ad başka bir dil tarafından kullanılıyor,
 lütfen yeni bir ad verin."/>
-			<UDLRemoveCurrentLang title="Şu Anki Dili Kaldır" message="Emin misiniz?"/>
+			<UDLRemoveCurrentLang title="Şu anki dili kaldır" message="Emin misiniz?"/>
 			<UDL_importSuccessful title="Kullanıcı Tanımlı Dil" message="İçeri alım başarılı."/>
 			<UDL_importFails title="Kullanıcı Tanımlı Dil" message="İçeri alım başarısız."/>
-			<UDL_saveBeforeImport title="Kullanıcı Tanımlı Dil" message="Dışa aktarma öncesinde, dil tanımınızı &quot;Farklı Kaydet...&quot; seçeneğine tıklayarak kaydedin."/> <!-- NasılTekrarlanır: Kullanıcı Dili penceresinde "Kullanıcı Tanımlı Dil" seçin, sonrasında "Dışa Ver..." dümesine basın. -->
+			<UDL_saveBeforeImport title="Kullanıcı Tanımlı Dil" message="Dışa aktarma öncesinde, dil tanımınızı &quot;Farklı Kaydet...&quot; seçeneğine tıklayarak kaydedin."/> <!-- Nasıl Yeniden Üretilir: Kullanıcı Dili penceresinde "Kullanıcı Tanımlı Dil" seçin, sonrasında "Dışa Ver..." dümesine basın. -->
 			<UDL_exportSuccessful title="Kullanıcı Tanımlı Dil" message="Dışa aktarma başarılı."/>
 			<UDL_exportFails title="Kullanıcı Tanımlı Dil" message="Dışa aktarma başarısız."/>
 			<SCMapperDoDeleteOrNot title="Emin misiniz?" message="Bu kısayolu silmek istediğinize emin misiniz?"/>
-			<FindCharRangeValueError title="Aralık Değeri Problemi" message="0 ile 255 arasında bir giriş yapmalısınız."/> <!-- NasılTekrarlanır: Ara menüsü, Aralıktaki karakterleri bul, Özel Aralık seçin, herhangi bir düzenle kutusunda 999 girin, ve Ara'ya basın. -->
-			<OpenInAdminMode title="Kayıt Başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
-Notepad++ı Yönetici olarak başlatmak ister misiniz?"/>
-			<OpenInAdminModeWithoutCloseCurrent title="Kayıt Başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
-Notepad++ı Yönetici olarak başlatmak ister misiniz?"/>
-			<OpenInAdminModeFailed title="Yönetici Olarak Başlatma Başarısız" message="Notepad++ Yönetici olarak başlatılamaz."/>
+			<FindCharRangeValueError title="Aralık Değeri problemi" message="0 ile 255 arasında bir giriş yapmalısınız."/> <!-- Nasıl Yeniden Üretilir: Ara menüsü, Aralıktaki karakterleri bul, Özel Aralık seçin, herhangi bir düzenle kutusunda 999 girin, ve Ara'ya basın. -->
+			<OpenInAdminMode title="Kayıt başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
+Notepad++ uygulamasını Yönetici olarak başlatmak ister misiniz?"/>
+			<OpenInAdminModeWithoutCloseCurrent title="Kayıt başarısız" message="Dosya kaydedilemedi, korumalı olabilir.
+Notepad++ uygulamasını Yönetici olarak başlatmak ister misiniz?"/>
+			<OpenInAdminModeFailed title="Yönetici olarak başlatma başarısız" message="Notepad++ Yönetici olarak başlatılamaz."/>
 			<ViewInBrowser title="Şimdiki Dosyayı Tarayıcıda GÖrüntüle" message="Sisteminizde uygulama bulunamadı."/>
 			<ExitToUpdatePlugins title="Notepad++ kapanmak üzere" message="Eğer EVET düğmesine basarsanız Notepad++ kapanacak ve işlemler devam edecek.
 Notepad++ tüm işlemler bitince yeniden başlatılacak.
 Devam edilsin mi?"/>
 			<NeedToRestartToLoadPlugins title="Notepad++ yeniden başlatılmalı" message="Kurduğunuz eklentilerin yüklenmesi için Notepad++ yeniden başlatılmalı."/>
-			<ChangeHistoryEnabledWarning title="Notepad++ yeniden başlatılmalı" message="Değişim Geçmişini etkinleştirmek için Notepad++'ı yeniden başlatılmanız gereklidir."/><!-- NasılTekrarlanır: Tercihler penceresindeki "Boşluk/Sınır/Köşe" sekmesinde bulunan "Değişim Geçmişini Göster" seçeneğindeki işareti kaldırın. -->
-			<WindowsSessionExit title="Notepad++ - Windows Oturum Sonlandırması" message="Windows oturumu sonlandırılmak üzere, fakat bazı kaydedilmemiş verileriniz var. Şimdi Notepad++'tan çıkmak istiyor musunuz?"/>
-			<LanguageMenuCompactWarning title="Kısaltılmış Dil Menüsü" message="Bu ayar, bir sonraki başlatmada değiştirilecektir."/><!-- NasılTekrarlanır: Tercihler -> Dil Menüsü altındaki "Dil Menüsünü Kısalt" ile değiştirebilirsiniz. -->
+			<ChangeHistoryEnabledWarning title="Notepad++ yeniden başlatılmalı" message="Değişim Geçmişini etkinleştirmek için Notepad++'ı yeniden başlatılmanız gereklidir."/><!-- Nasıl Yeniden Üretilir: Tercihler penceresindeki "Boşluk/Sınır/Köşe" sekmesinde bulunan "Değişim Geçmişini Göster" seçeneğindeki işareti kaldırın. -->
+			<WindowsSessionExit title="Notepad++ - Windows oturum sonlandırması" message="Windows oturumu sonlandırılmak üzere, fakat bazı kaydedilmemiş verileriniz var. Şimdi Notepad++'tan çıkmak istiyor musunuz?"/>
+			<LanguageMenuCompactWarning title="Kısaltılmış Dil Menüsü" message="Bu ayar, bir sonraki başlatmada değiştirilecektir."/><!-- Nasıl Yeniden Üretilir: Tercihler -> Dil Menüsü altındaki "Dil Menüsünü Kısalt" ile değiştirebilirsiniz. -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Kaydedilmemiş değişiklikler gözardı edilmek üzere!
-Temaları değiştirmeden önce, değişikleri kaydetmek ister misiniz?"/><!-- NasılTekrarlanır: Stil Yapılandırıcısı altında, kaydetmeden, temalar arasında geçiş yapın. -->
-			<FullReadOnlySavingForbidden title="Kayıt Başarısız" message="Dosya kaydedilemiyor.
+Temaları değiştirmeden önce, değişikleri kaydetmek ister misiniz?"/><!-- Nasıl Yeniden Üretilir: Stil Yapılandırıcısı altında, kaydetmeden, temalar arasında geçiş yapın. -->
+			<FullReadOnlySavingForbidden title="Kayıt başarısız" message="Dosya kaydedilemiyor.
 Notepad++'ın tam salt okunurluk kaydetmek yasak modu dosyanın kaydedilmesini engelledi."/>
-			<NotEnoughRoom4Saving title="Kaydetme Başarısız" message="Dosya kaydetme başarısız.
+			<NotEnoughRoom4Saving title="Kaydetme başarısız" message="Dosya kaydetme başarısız.
 Görünüşe göre, diskinizde dosyayı kaydetmek için yeterli alan yok. Dosyanız kaydedilemedi."/>
 			<FileInaccessibleUserSession title="Dosyaya erişilemiyor" message="Elle kaydettiğiniz &quot;$STR_REPLACE$&quot; oturumunuzdaki bazı dosyalara erişilemiyor. Yer tutucular gibi boş ve salt-okunur belgeler şeklinde açılabilirler.
 
@@ -1630,11 +1631,11 @@ Bul penceresini açmak için Tamam tuşuna basın veya ona odaklayın.
 			
 Eğer geriye doğru düzenli ifade arama özelliğine ihtiyacınız varsa, kullanıcı kılavuzundaki talimatlarla etkinleştirin."/>
 			<PrintError title="0" message="Yazıcı belgesi başlatılamıyor."/><!-- title="0" kullanarak Windows İS varsayılan "Hata" tercüme başlığını kullanabilirsiniz. -->
-			<FindAutoChangeOfInSelectionWarning title="Arama Uyarısı" message="&quot;Seçimde&quot; kutucuk değeri otomatik olarak değiştirildi.
-Bu eylemi gerçekleştirmeden önce lütfen arama durumunu doğrulayın."/> <!-- NasılTekrarlanır: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
-			<Need2Restart2ShowMenuShortcuts title="Notepad++ Yeniden Başlatılmalı" message="Doğru menü kısayollarının gösterimi için Notepad++ yeniden başlatılmalı."/>
-			<NoAdminRight2ChangeReadOnlyFileAttribute title="Dosyanın Salt Okunur Özniteliği Değişimi Başarısız" message="Dosya niteliklerinin değişmesi için lütfen Notepad++'ı yönetici olarak çalıştırın."/>
-			<ReadOnlyFileCannotBeSaved title="Kayıt Başarısız - Dosya Salt Okunur" message="&quot;$STR_REPLACE$&quot;
+			<FindAutoChangeOfInSelectionWarning title="Arama uyarısı" message="&quot;Seçimde&quot; kutucuk değeri otomatik olarak değiştirildi.
+Bu eylemi gerçekleştirmeden önce lütfen arama durumunu doğrulayın."/> <!-- Nasıl Yeniden Üretilir: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 -->
+			<Need2Restart2ShowMenuShortcuts title="Notepad++ yeniden başlatılmalı" message="Doğru menü kısayollarının gösterimi için Notepad++ yeniden başlatılmalı."/>
+			<NoAdminRight2ChangeReadOnlyFileAttribute title="Dosyanın salt okunur özniteliği değişimi başarısız" message="Dosya niteliklerinin değişmesi için lütfen Notepad++'ı yönetici olarak çalıştırın."/>
+			<ReadOnlyFileCannotBeSaved title="Kayıt başarısız - Dosya Salt Okunur" message="&quot;$STR_REPLACE$&quot;
 Dosya salt okunur ve kaydedilemez.
 Salt okunurluğunu kaldırıp kaydedin."/>
 			<ShortcutsXmlHMACMissing title="Güvenlik Uyarısı" message="config.xml içinde shortcuts.xml güvenlik bilgisi yok.
@@ -1643,12 +1644,15 @@ Güvenlik dolayısıyla, shortcuts.xml veri bütünlüğü kontrol edilecektir. 
 			<ShortcutsXmlTampered title="Güvenlik Uyarısı" message="shortcuts.xml dosyası elle düzenlenmiş gibi duruyor.
 
 Güvenlik dolayısıyla, açılan shortcuts.xml dosyasını gözden geçirin. Eğer dosya içeriği normalse, doğrulamak için &quot;Çalıştır&quot; menüsünden &quot;shortcuts.xml Dosyasını Doğrula&quot; seçeneğini kullanın."/>
+			<SymlinkLoadingWarning title="Uyarı: Sembolik bağlantı yükleme donmaya neden olabilir" message="Klasörü Çalışma Alanı Olarak Aç panelinde sembolik bağlantı yüklemeyi etkinleştirmek, Notepad++ uygulamasının sonsuz döngüye girmesine ve donmasına neden olabilir.
+Bu durum, dizin sembolik bağlantıları üst klasörlere yönlendirildiğinde veya dairesel başvurular oluşturduğunda meydana gelebilir.
+Yalnızca riskleri anlıyorsanız devam edin."/>			
 		</MessageBox>
 		<ClipboardHistory>
-			<PanelTitle name="Pano geçmişi"/>
+			<PanelTitle name="Pano Geçmişi"/>
 		</ClipboardHistory>
 		<DocList>
-			<PanelTitle name="Belge listesi"/>
+			<PanelTitle name="Belge Listesi"/>
 			<ColumnName name="Ad"/>
 			<ColumnExt name="Uzantı"/>
 			<ColumnPath name="Yol"/>
@@ -1665,7 +1669,7 @@ Güvenlik dolayısıyla, açılan shortcuts.xml dosyasını gözden geçirin. E�
 			<MenuCopyPath name="Yol adını kopyala"/>
 		</WindowsDlg>
 		<AsciiInsertion>
-			<PanelTitle name="ASCII kodu ekleme paneli"/>
+			<PanelTitle name="ASCII Kodu Ekleme Paneli"/>
 			<ColumnVal name="Değer"/>
 			<ColumnHex name="On altılı"/>
 			<ColumnChar name="Karakter"/>
@@ -1674,17 +1678,17 @@ Güvenlik dolayısıyla, açılan shortcuts.xml dosyasını gözden geçirin. E�
 			<ColumnHtmlHexNb name="HTML onaltılık	"/>
 		</AsciiInsertion>
 		<DocumentMap>
-			<PanelTitle name="Belge haritası"/>
+			<PanelTitle name="Belge Haritası"/>
 		</DocumentMap>
 		<FunctionList>
-			<PanelTitle name="Fonksiyon listesi"/>
+			<PanelTitle name="Fonksiyon Listesi"/>
 			<SortTip name="Sırala"/>
 			<ReloadTip name="Yeniden yükle"/>
 			<PreferencesTip name="Tercihler"/>
 			<PreferencesInitialSort name="Varsayılan olarak fonksiyonları (a'dan z'ye) sırala"/>
 		</FunctionList>
 		<FolderAsWorkspace>
-			<PanelTitle name="Çalışma alanı olarak klasör"/>
+			<PanelTitle name="Çalışma Alanı Olarak Klasör"/>
 			<SelectFolderFromBrowserString name="Çalışma alanı olarak klasör paneline eklemek için bir klasör seçin."/>
 			<ExpandAllFoldersTip name="Tümünü aç"/>
 			<CollapseAllFoldersTip name="Tümünü katla"/>
@@ -1754,33 +1758,33 @@ Güvenlik dolayısıyla, açılan shortcuts.xml dosyasını gözden geçirin. E�
 			<!-- $INT_REPLACE$ ve $STR_REPLACE$ birer yer tutucudur, bu yer tutucuları çevirmeyin. -->
 			<word-chars-list-tip value="Bu, şu anki karakterlere yeni karakter eklemenizi sağlar. Bunun için seçime çift tıklayabilir ya da &quot;Sadece tam sözcükleri eşleştir&quot; seçili olarak arama yaparken kullanabilirsiniz."/>
 
-			<!-- "(&quot;EOL custom color&quot;)" Kısmını Çevirmeyin -->
+			<!-- "(&quot;EOL custom color&quot;)" Kısmını çevirmeyin -->
 			<eol-custom-color-tip value="Varsayılan Satır Sonu kişisel rengini değiştirmek için Stil Yapılandırıcı'ya gidin (&quot;EOL custom color&quot;).."/>
 			
 			<word-chars-list-warning-begin value="Dikkat et: "/>
 			<word-chars-list-space-warning value="$INT_REPLACE$ boşluk(lar)"/>
 			<word-chars-list-tab-warning value="$INT_REPLACE$ SEKME(ler)"/>
 			<word-chars-list-warning-end value="  karakter listenizde."/>
-			<backup-select-folder value="Yedekleme konumu için bir klasör seçin"/><!-- NasılTekrarlanır: Ayarlar > Tercihler > Yedekleme > [...] -->
+			<backup-select-folder value="Yedekleme konumu için bir klasör seçin"/><!-- Nasıl Yeniden Üretilir: Ayarlar > Tercihler > Yedekleme > [...] -->
 			<cloud-invalid-warning value="Geçersiz yol."/>
 			<cloud-restart-warning value="Etkin olması için Notepad++'yı tekrar başlat."/>
 			<cloud-select-folder value="Notepad++'ın ayarlarını yazıp okuyabileceği bir klasör seçin"/>
-			<default-open-save-select-folder value="Varsayılan dizin için bir klasör seçin"/><!-- NasılTekrarlanır: Ayarlar > Tercihler > Varsayılan Dizin > [...] -->
+			<default-open-save-select-folder value="Varsayılan dizin için bir klasör seçin"/><!-- Nasıl Yeniden Üretilir: Ayarlar > Tercihler > Varsayılan Dizin > [...] -->
 			<shift-change-direction-tip value="Shift+Enter ile diğer yönde arama yapın."/>
-			<two-find-buttons-tip value="İkili Bulma Düğmesi Modu"/>
-			<find-in-files-filter-tip value="Şunların içinde Bul - cpp, cxx, h, hxx &amp;&amp; hpp:
+			<two-find-buttons-tip value="2 Bul Düğmeli Mod"/>
+			<find-in-files-filter-tip value="Şunların içinde bul - cpp, cxx, h, hxx ve hpp:
 *.cpp *.cxx *.h *.hxx *.hpp
 
-Şunlar hariç tüm dosyaların içinde bul - exe, obj &amp;&amp; log:
+Şunlar hariç tüm dosyalarda bul - exe, obj ve log:
 *.* !*.exe !*.obj !*.log
 
-Şu klasörler hariç tüm dosyalarda bul - tests, bin &amp;&amp; bin64:
+Şu klasörler hariç tüm dosyalarda bul - tests, bin ve bin64:
 *.* !\tests !\bin*
 
 Tüm dosyalarda bul ama şu klasörleri tekrarlı olarak hariç tut - log ya da logs:
-*.* !+\log*"/><!-- NasılTekrarlanır: Bul penceresinde Farenin ucu "Dosyalarda Bul" sekmesi içinde "Filtreler" etiketi üzerinde tutulur. -->
-			<find-in-files-select-folder value="İçinde arama yapılacak bir klasör seçin"/><!-- NasılTekrarlanır: Bul > Dosyalarda Bul > [...] -->
-			<find-in-files-dir-from-active-doc-tip value="Dizin alanını aktif belgeye dayanarak doldur"/><!-- NasılTekrarlanır: Ara > Dosyalarda Bul > [<<] -->
+*.* !+\log*"/><!-- Nasıl Yeniden Üretilir: Bul penceresinde Farenin ucu "Dosyalarda Bul" sekmesi içinde "Filtreler" etiketi üzerinde tutulur. -->
+			<find-in-files-select-folder value="İçinde arama yapılacak bir klasör seçin"/><!-- Nasıl Yeniden Üretilir: Bul > Dosyalarda Bul > [...] -->
+			<find-in-files-dir-from-active-doc-tip value="Dizin alanını aktif belgeye dayanarak doldur"/><!-- Nasıl Yeniden Üretilir: Ara > Dosyalarda Bul > [<<] -->
 			<find-status-top-reached value="Bulma: Dosyanın başına ulaşıldı, sondan birinci eşleşme bulundu."/>
 			<find-status-end-reached value="Bulma: Dosyanın sonuna ulaşıldı, baştan birinci eşleşme bulundu."/>
 			<find-status-replaceinfiles-1-replaced value="Dosyalarda Değiştir: 1 eşleşme değiştirildi"/>
@@ -1868,10 +1872,11 @@ Bu alana yapıştırılmış yazıda görünmeyen (belki satır sonu) karakterle
 			<find-result-title-info-options-word value="Kelime"/>
 			<find-result-title-info-extra value=" - Satır Filtresi Modu: sadece filtrelenmiş sonuçları göster"/>
 			<find-result-hits value="($INT_REPLACE$ eşleşme)"/>
+			<find-result-line-prefix value="Satır"/><!-- Boşluk veya sekme karakteri ile başlamamalıdır -->
 			<find-regex-zero-length-match value="sıfır uzunluk eşleşmesi"/>
 			<session-save-folder-as-workspace value="Klasörü Çalışma Alanı Olarak Kaydet"/>
 			<tab-untitled-string value="yeni "/>
-			<file-save-assign-type value="Uz&amp;antı Ekle"/>
+			<file-save-assign-type value="Uz&amp;antı ekle"/>
 			<close-panel-tip value="Kapat"/>
 			<IncrementalFind-FSNotFound value="Sözcük bulunamadı"/>
 			<IncrementalFind-FSTopReached value="Sayfanın en başına ulaşıldı, sondan başlandı"/>
@@ -1885,7 +1890,7 @@ Bu alana yapıştırılmış yazıda görünmeyen (belki satır sonu) karakterle
 NOT:
 1. Burada seçenekleri değiştirmek, kararlı davranışlar elde etmek için şu anda açılmış büyük boyutlu dosyaların tekrar açılmasını gerektirir.
 
-2. Eğer &quot;Sözcük Kaydırmayı Tümden Etkisizleştir&quot; işaretlenmişse ve büyük dosya açarsanız &quot;Sözcük Kaydır&quot; tüm dosyalar için etkisizleştirilir. Bunu tekrardan &quot;Görünüm-&gt;Sözcük Kaydır&quot; ile etkinleştirebilirsiniz."/>
+2. Eğer &quot;Sözcük Kaydırmayı tümden etkisizleştir&quot; işaretlenmişse ve büyük dosya açarsanız &quot;Sözcük Kaydır&quot; tüm dosyalar için etkisizleştirilir. Bunu tekrardan &quot;Görünüm-&gt;Sözcük Kaydır&quot; ile etkinleştirebilirsiniz."/>
 			<npcNote-tip value="Seçili &quot;ASCII-olmayan&quot; beyaz boşluk karakteri ve yazdırılamayan (kontrol) karakterlerinin temsili.
 
 NOT:
@@ -1909,7 +1914,7 @@ U+FEFF : sıfır-genişlikli bölünmez boşluk (zero-width no-break space)
 Tam liste için Kullanıcı Kılavuzu'na bakın.
 Sağdaki &quot;?&quot; düğmesine tıklayarak Kullanıcı Kılavuzu'nun olduğu siteyi açın."/>
 
-			<!-- "(&quot;Non-printing characters custom color&quot;)" Kısmını Çevirmeyin -->
+			<!-- "(&quot;Non-printing characters custom color&quot;)" kısmını çevirmeyin -->
 			<npcCustomColor-tip value="Stil Yapılandırıcısı'na giderek, varsayılan seçili beyaz boşluk karakteri ve yazdırılamayan karakterler için kişisel rengi değiştirebilirsiniz (&quot;Non-printing characters custom color&quot;)."/>
 			<npcIncludeCcUniEol-tip value="Yazdırılamayan karaklerlerin görünüm ayarlarını C0, C1 kontrol ve Unicode Satır Sonu (yeni satır, satır ayırıcı ve paragraf ayırıcı) karakterleri için uygulayabilirsiniz."/>
 			<searchingInSelThresh-tip value="Bul penceresi etkinken &quot;Seçimde&quot; onay kutusunun otomatik olarak işaretlenmesi için düzenleme alanında seçili karakterlerin minimum sayısı. Maksimum değer $INT_REPLACE$'dir. Otomatik denetimi devre dışı bırakmak için değeri 0 olarak ayarlayın."/>
@@ -1921,7 +1926,8 @@ Sağdaki &quot;?&quot; düğmesine tıklayarak Kullanıcı Kılavuzu'nun olduğu
 C, C++, Java, C#, Objective-C, PHP, JavaScript, JSP, CSS, Perl, Rust, PowerShell ve JSON
 
 Eğer gelişmiş modu seçerseniz fakat belirtilen dilleri düzenlemezseniz, girinti basit modda kalacaktır."/>
-			<!-- "Global override" ve "Default Style" kelimelerini değiştirme -->
+
+			<!-- "Global override" ve "Default Style" ifadelerini çevirmeyin -->
 			<global-override-tip value="Burada &quot;Global override&quot; etkinleştirmek tüm dil stillerindeki parametreyi değiştirecektir. Yapmak istediğiniz ise, muhtemelen ayarlardaki &quot;Default Style&quot; seçeneğini kullanmak"/>
 			<scintillaRenderingTechnology-tip value="Özel karakterlerin gösterimini iyileştirebilir veya bazı grafik sorunlarını çözebilir, değişimleri onaylamak için Notepad++'ı yeniden başlatın."/>
 
