@@ -1,3 +1,5 @@
+# Notepad++ Türkçe Çeviri Stil Kılavuzu
+
 ## 1. Yazım ve Biçimlendirme Standartları
 
 ### A. Sentence Case Kullanımı
