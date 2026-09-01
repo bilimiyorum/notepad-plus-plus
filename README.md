@@ -1,4 +1,4 @@
-# Notepad++ Geliştirilmiş Türkçe Dil Paketi
+# Notepad++ Geliştirilmiş Türkçe Dil Paketi (`turkish.xml`)
 
 Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve tutarsız menü biçimlendirmelerini (Title Case/Sentence Case) düzeltmek amacıyla hazırladığım bağımsız Türkçe yerelleştirme paketidir.
 
@@ -15,6 +15,18 @@ Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve
 3. İndirdiğiniz `turkish.xml` dosyasını bu klasörün içine kopyalayın (Mevcut dosya ile değiştirin).
 4. Notepad++ uygulamasını yeniden başlatın ve **Ayarlar > Tercihler > Genel** menüsünden dili Türkçe seçin.
 
+## 📋 Depo Klasör Yapısı
+
+```markdown
+```text
+notepad-plus-plus/
+├── 📁 PowerEditor/
+│   └── 📁 installer/
+│       └── 📁 nativeLang/
+│           └── 📄 turkish.xml      # Güncel Türkçe dil dosyası
+├── 📄 README.md                    # Proje tanıtımı ve kurulum rehberi
+└── 📄 style_guide.md               # Katkıda bulunma ve çeviri standartları
+```
 ## 📄 Lisans
 
 Bu proje Notepad++ projesinin orijinal lisansı olan [GPL-2.0](LICENSE) altında dağıtılmaktadır.
