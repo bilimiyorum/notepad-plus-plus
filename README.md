@@ -39,6 +39,5 @@ Bu projedeki menü biçimlendirmeleri, terim birlikteliği ve büyük/küçük h
 
 Arayüzde veya kod yorumlarında fark ettiğiniz çeviri hataları, eksik etiketler veya terim tutarsızlıkları için katkılarınız memnuniyetle karşılanır!
 
-1. Katkıda bulunmadan önce lütfen **[style_guide.md](style_guide.md)** dosyasındaki yazım ve biçimlendirme standartlarını inceleyin.
-2. Projeyi çatallayın (**Fork**), değişikliklerinizi yapın ve bir **Pull Request (PR)** açın.
-3. Hatalı gördüğünüz durumlar için ekran görüntüsü ile birlikte bir **Issue** oluşturabilirsiniz.
+1. Projeyi çatallayın (**Fork**), değişikliklerinizi yapın ve bir **Pull Request (PR)** açın.
+2. Hatalı gördüğünüz durumlar için ekran görüntüsü ile birlikte bir **Issue** oluşturabilirsiniz.
