@@ -15,10 +15,6 @@ Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve
 3. İndirdiğiniz `turkish.xml` dosyasını bu klasörün içine kopyalayın (Mevcut dosya ile değiştirin).
 4. Notepad++ uygulamasını yeniden başlatın ve **Ayarlar > Tercihler > Genel** menüsünden dili Türkçe seçin.
 
-## 💬 Geri Bildirim
-
-Hatalı veya eksik gördüğünüz bir çeviri olursa **Issues** bölümünden bildirebilir veya katkı sağlamak isterseniz **Pull Request** gönderebilirsiniz.
-
 ## 📄 Lisans
 
 Bu proje Notepad++ projesinin orijinal lisansı olan [GPL-2.0](LICENSE) altında dağıtılmaktadır.
@@ -26,3 +22,11 @@ Bu proje Notepad++ projesinin orijinal lisansı olan [GPL-2.0](LICENSE) altında
 ## 📐 Çeviri Standardı ve Stil Kılavuzu
 
 Bu projedeki menü biçimlendirmeleri, terim birlikteliği ve büyük/küçük harf kuralları [Stil Kılavuzu (STYLE_GUIDE.md)](STYLE_GUIDE.md) dokümanına göre yönetilmektedir.
+
+## 🤝 Katkıda Bulunma (Contributing) ve Geri Bildirim
+
+Arayüzde veya kod yorumlarında fark ettiğiniz çeviri hataları, eksik etiketler veya terim tutarsızlıkları için katkılarınız memnuniyetle karşılanır!
+
+1. Katkıda bulunmadan önce lütfen **[style_guide.md](style_guide.md)** dosyasındaki yazım ve biçimlendirme standartlarını inceleyin.
+2. Projeyi çatallayın (**Fork**), değişikliklerinizi yapın ve bir **Pull Request (PR)** açın.
+3. Hatalı gördüğünüz durumlar için ekran görüntüsü ile birlikte bir **Issue** oluşturabilirsiniz.
