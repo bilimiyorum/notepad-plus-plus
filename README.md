@@ -17,7 +17,6 @@ Notepad++ için resmi çeviride yer alan yazım hatalarını, eksik terimleri ve
 
 ## 📋 Depo Klasör Yapısı
 
-```markdown
 ```text
 notepad-plus-plus/
 ├── 📁 PowerEditor/
