@@ -24,7 +24,7 @@ notepad-plus-plus/
 │       └── 📁 nativeLang/
 │           └── 📄 turkish.xml      # Güncel Türkçe dil dosyası
 ├── 📄 README.md                    # Proje tanıtımı ve kurulum rehberi
-└── 📄 style_guide.md               # Katkıda bulunma ve çeviri standartları
+└── 📄 STYLE_GUIDE.md               # Katkıda bulunma ve çeviri standartları
 ```
 ## 📄 Lisans
 
